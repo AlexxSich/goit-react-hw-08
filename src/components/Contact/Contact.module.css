@@ -1,0 +1,38 @@
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 250px;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+
+}
+
+.contactContainer {
+    display: flex;
+    gap: 30px;
+
+}
+
+.contactName {}
+
+.contactsItem {}
+
+.myIcon {
+    margin-right: 10px;
+}
+
+.contactBtn {
+    background-color: rgb(222, 222, 222);
+    padding: 5px;
+    height: 35px;
+}
