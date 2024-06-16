@@ -5,7 +5,7 @@ import Error from '../../components/Error/Error';
 import ContactList from '../../components/ContactList/ContactList';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectLoading, selectError } from '../../redux/contacts/slice';
+import { selectLoading, selectError } from '../../redux/contacts/selectors';
 import { fetchContacts } from '../../redux/contacts/operations';
 import css from './ContactsPage.module.css';
 
